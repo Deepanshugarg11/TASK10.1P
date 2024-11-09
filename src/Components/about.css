@@ -1,0 +1,46 @@
+
+/* Styling for a block element */
+.Box {
+    display: block;
+    background-color: darkcyan;
+    padding: 20px;
+  }
+  
+  /* Styling for a footer element */
+  .foot {
+    display: inline-block;
+    margin-left: 300px;
+    /* margin-right: 180px; */
+    vertical-align: top;
+  }
+  
+  /* Styling for a bold heading element */
+  .head {
+    font-weight: bold;
+  }
+  
+  /* Resetting default styles for an unordered list */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling for list items with margin at the bottom */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for list items within a specific class */
+  .list li {
+    margin: 40px;
+    display: inline-block;
+  }
+  
+  /* Styling for a block element with a class */
+  .list {
+    display: block;
+    margin: 20px;
+    /* flex-direction: column; */
+  }
+  

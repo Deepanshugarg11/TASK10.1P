@@ -1,0 +1,30 @@
+.CenterBar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .CenterBar p{
+    margin-left: 20px;
+    margin-right: 35px;
+    display: inline-block;
+  }
+  .Content p{
+    margin-left: 20px;
+    margin-right: 35px;
+    display: inline-block;
+  }
+  
+  .Content {
+    flex-grow: 1;
+  }
+  
+  .SearchInput {
+    padding: 8px;
+    font-size: 14px;
+    width: 80%;
+    border: 1px solid #ccc;
+   
+  }
+  
+  

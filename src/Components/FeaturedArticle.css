@@ -1,0 +1,61 @@
+.Feature {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .Container {
+    display: flex;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    margin: 50px;
+    width: 85%;
+    gap: 20px;
+  }
+  
+  .Article {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .Image {
+    width: 350px;
+
+  }
+  
+  .Details {
+    margin-top: 10px;
+  }
+  
+  .Title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .Description {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .Author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  .Rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .AuthorName{
+    margin: 0;
+  }
+  .Rating {
+    margin: 0;
+  }
+  
